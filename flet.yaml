@@ -1,0 +1,13 @@
+# Flet App Configuration
+name: "Smart Grocery POS"
+description: "نظام بقالة ذكية لإدارة المبيعات والمخزون"
+executable: "main.py"
+package: "com.smartgrocery.pos"
+version: "1.5.0"
+
+# Android specific
+android:
+  permissions:
+    - android.permission.CAMERA
+    - android.permission.WRITE_EXTERNAL_STORAGE
+    - android.permission.READ_EXTERNAL_STORAGE
